@@ -1,4 +1,4 @@
-FROM node:latest
+FROM 136463801480.dkr.ecr.us-east-1.amazonaws.com/pipelinenode:latest
 
 # Create app directory
 WORKDIR /usr/src/app
