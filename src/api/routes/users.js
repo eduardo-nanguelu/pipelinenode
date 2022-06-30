@@ -4,6 +4,7 @@ const fetch= require('node-fetch')
 
 router.get('/', (req,res) => {
     res.send("Entra a las siguientes rutas /predecirgenero/nombre y predeciredad/nombre este es el bueno")
+
 })
 
 router.get('/predecirgenero/:nombre', async (req,res) => {
