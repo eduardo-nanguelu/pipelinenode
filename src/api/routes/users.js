@@ -3,7 +3,7 @@ const router = express.Router()
 const fetch= require('node-fetch')
 
 router.get('/', (req,res) => {
-    res.send("Entra a las siguientes rutas /predecirgenero/nombre y predeciredad/nombre esta va a ser una pull request")
+    res.send("modificacion Entra a las siguientes rutas /predecirgenero/nombre y predeciredad/nombre esta va a ser una pull request")
 })
 
 router.get('/predecirgenero/:nombre', async (req,res) => {
